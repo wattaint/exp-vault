@@ -1,0 +1,12 @@
+{
+	"name": "Existing Docker Compose (Extend)",
+	"dockerComposeFile": [
+		"./compose/docker-compose.yml",
+		"./compose/docker-compose.dev.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/app",
+	"extensions": [
+		"dbaeumer.vscode-eslint"
+	]
+}
